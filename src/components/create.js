@@ -46,7 +46,7 @@ export default function Create() {
   // We refer to the functions we defined above for handling form changes.
   return (
     <div>
-      <h3>Create New Record</h3>
+      <h3>Create New Employee Record</h3>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
